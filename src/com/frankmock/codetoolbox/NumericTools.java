@@ -15,6 +15,11 @@ public class NumericTools {
 	public int[] decomposeInteger(int num){
 		try{
 			if(num == (int)num){ // make sure num is an integer
+				if(num == 0){
+					int[] zero = {0};
+					return zero;
+				}
+				
 				if(num < 0)
 					num = -num; // negate negative numbers
 				
