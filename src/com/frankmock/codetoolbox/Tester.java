@@ -8,7 +8,7 @@ public class Tester {
 		int[] digits = nt.decomposeInteger(12345);
 		
 		for(int i : digits){
-			System.out.print(i + System.getProperty("line.separator"));
+			System.out.print(i + " ");
 		}
 	}
 
